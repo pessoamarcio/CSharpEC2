@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20230510202614_InitialDB.cs" />
+    <Compile Remove="Migrations\20230510202614_InitialDB.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
       <PrivateAssets>all</PrivateAssets>
